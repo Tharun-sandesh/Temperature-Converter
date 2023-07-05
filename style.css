@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/star.jpg);
+}
+
+.container h1 {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cf-container {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    color: white;
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+input {
+    height: 6vh;
+    border-radius: 8px;
+    border-style: none;
+    margin-left: 7px;
+    padding: 10px;
+}
+
+.celsius input {
+    margin-left: 57px;
+}
+
+.kelvin input {
+    margin-left: 80px;
+}
+
+span{
+    padding-left: 1%;
+}
+
+b{
+    color: rgb(255, 0, 0);
+    font-size: 60px;
+    padding-left: 12px;
+}
